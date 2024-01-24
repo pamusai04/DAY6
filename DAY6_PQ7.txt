@@ -1,0 +1,17 @@
+//Question 7
+public class DAY6_PQ7{
+	
+	//7.write a java program to find the minumim element in a  java array
+	
+	public static void main(String [] args){
+		int [] arr={1,21,3,455,5,34,67};
+		int max=Integer.MAX_VALUE;
+		for(int e:arr){
+			if(e<max){
+				max=e;
+			}
+		}
+		System.out.println("the value of the minumim element in this array is :  "+max);
+	}
+	
+}
